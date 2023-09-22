@@ -1,0 +1,398 @@
+body {
+  background-color: rgb(55, 20, 80);
+}
+
+.frame {
+  margin: 30px 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*navigator*/
+
+.navigator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+li {
+  display: inline;
+  align-self: center;
+  margin: 0;
+  margin-left: 15px;
+}
+
+ul {
+  margin: 0;
+}
+
+.site-name {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  color: violet;
+}
+
+.nav-menu {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+a {
+  color: rgb(184, 61, 255);
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+/*comment*/
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  margin-top: 130px;
+}
+
+.big-comment {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+}
+
+.simple1 {
+  background-color: aqua;
+}
+
+.simple1:hover {
+  background-color: transparent;
+  color: black;
+  -webkit-text-stroke: 1px aqua;
+  transition: none;
+}
+
+.simple2 {
+  background-color: rgb(243, 243, 121);
+}
+
+.simple2:hover {
+  background-color: transparent;
+  color: black;
+  -webkit-text-stroke: 1px rgb(243, 243, 121);
+  transition: none;
+}
+
+.highlight {
+  color: black;
+  -webkit-text-stroke: 1px rgb(215, 165, 255);
+  transition: none;
+}
+
+.highlight:hover {
+  background-color: pink;
+  color: rgb(184, 61, 255);
+  -webkit-text-stroke: 0px;
+  transition: none;
+}
+
+.small-comment {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 300;
+  color: rgb(184, 61, 255);
+  font-size: 18px;
+
+  letter-spacing: -0.3px;
+}
+
+/*TEAM MEMBERS*/
+
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(184, 61, 255);
+  border-top: 1px solid;
+
+  margin-top: 170px;
+  margin-bottom: 200;
+}
+
+/*member-introduce*/
+
+.member-introduce {
+  display: flex;
+  flex-direction: column;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 130px;
+  align-items: center;
+}
+
+.symbol {
+  width: 600px;
+}
+
+.article-info {
+  margin: 0px 50px;
+}
+
+.article-name {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(55, 20, 80);
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+#member-name1 {
+  -webkit-text-stroke: 1px rgb(255, 78, 231);
+}
+
+#member-name1:hover {
+  color: white;
+  background-color: pink;
+}
+
+#member-name2 {
+  -webkit-text-stroke: 1px rgb(0, 170, 255);
+}
+
+#member-name2:hover {
+  color: white;
+  background-color: rgb(157, 227, 255);
+}
+
+#member-name3 {
+  -webkit-text-stroke: 1px orange;
+}
+
+#member-name3:hover {
+  color: white;
+  background-color: rgb(255, 209, 123);
+}
+
+#member-name4 {
+  -webkit-text-stroke: 1px rgb(0, 213, 71);
+}
+
+#member-name4:hover {
+  color: white;
+  background-color: rgb(181, 255, 154);
+}
+
+#member-name5 {
+  -webkit-text-stroke: 1px rgb(194, 190, 0);
+}
+
+#member-name5:hover {
+  color: white;
+  background-color: rgb(255, 255, 127);
+}
+
+.role {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(184, 61, 255);
+  margin-top: 0;
+}
+
+.idea {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  color: white;
+  margin-top: 20px;
+}
+
+/*SITE_CODE*/
+
+.site-frame {
+  display: inline;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 0;
+}
+
+.site-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.active-site1 {
+  width: 425px;
+}
+
+.active-site1 {
+  width: 425px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.active-site1 {
+  width: 425px;
+}
+
+.html-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 550;
+  font-size: 30px;
+  color: white;
+
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.html-code1 {
+  width: 1325px;
+}
+
+.html-code2 {
+  width: 1325px;
+  position: relative;
+  bottom: 70px;
+}
+
+.css-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 550;
+  font-size: 30px;
+  color: white;
+
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.css-code1 {
+  width: 1325px;
+
+  margin-bottom: 40px;
+}
+
+/*AI_ROBOT*/
+
+.robot-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 0;
+}
+
+.small-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  color: rgb(184, 61, 255);
+
+  margin-bottom: 0px;
+}
+
+.robot-explain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.arduino {
+  margin-right: 40px;
+}
+
+.arduino-title {
+  font-size: 25px;
+  font-weight: 800;
+  font-family: "Noto Sans KR", sans-serif;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.about-robot {
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: white;
+  font-weight: 350;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.mark {
+  color: white;
+  font-weight: 650;
+}
+
+.robot-picture {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+#active-picture1 {
+  width: 425px;
+}
+
+#active-picture2 {
+  width: 425px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#active-picture3 {
+  width: 400px;
+}
+
+.robot-code {
+  width: 1300px;
+}
+
+#rc1 {
+  margin-top: 30px;
+}
+
+#rc2 {
+  margin-bottom: 30px;
+}
+
+/*SITE_CODE & AI_ROBOT*/
+
+.big-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(184, 61, 255);
+  border-top: 1px solid;
+}
